@@ -6,8 +6,8 @@ on:
     branches: [ master ]
 
 env:
-  ECR_REPOSITORY: flask-app
-  EKS_CLUSTER_NAME: eks-forge-develop-cluster 
+  ECR_REPOSITORY: jobs
+  EKS_CLUSTER_NAME: eks1
   AWS_REGION: eu-north-1
 
 jobs:
