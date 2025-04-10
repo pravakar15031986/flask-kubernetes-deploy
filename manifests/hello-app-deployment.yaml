@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: 585853585762.dkr.ecr.eu-north-1.amazonaws.com/jobs:latest   #DOCKER_IMAGE
+        image: ECR_REPO                                
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
