@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: ECR_REPO                                
+        image: IMAGE_TAG                                
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
